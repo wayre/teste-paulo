@@ -1,0 +1,18 @@
+{
+  "name": "paulo-tosi",
+  "version": "1.0.0",
+  "description": "Teste de Angular route",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wayre Avelar",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  }
+}

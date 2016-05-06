@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pagina Principal</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="http://bxslider.com/lib/jquery.bxslider.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+        <div class="container">
+        	<div class="logo">My app</div>
+        	<nav class="main">
+        		<ul>
+        		  <li><a href="#/">Home</a></li>
+        		  <li><a href="#/about">About</a></li>
+        		</ul>
+        	</nav>
+        </div>
+    </header>
+
+    <div class="container content" ng-controller="ctrlMain">
+        <div ng-view></div>
+    </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+
+
+	<script src="js/app.js"></script>
+
+</body>
+</html>
